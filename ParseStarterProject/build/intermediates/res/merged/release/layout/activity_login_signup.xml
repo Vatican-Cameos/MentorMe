@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtusername"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassword"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="Choose the appropriate option"
+        android:id="@+id/textspinner"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textspinner"
+
+        android:spinnerMode="dropdown" />
+
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/spinner1"
+        app:reflectionColor="@android:color/black"
+        android:text="Login" />
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:id="@+id/signup"
+
+        android:layout_width="fill_parent"
+        app:reflectionColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:text="Sign up" />
+
+</RelativeLayout><!-- From: file:/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/res/layout/activity_login_signup.xml -->

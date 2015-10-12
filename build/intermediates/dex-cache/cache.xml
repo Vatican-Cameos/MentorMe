@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/libs/android-smart-image-view-1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d76ea8c3e9a60101244d6d04aff8cc75888570f0">
+        <dex dex="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/pre-dexed/release/android-smart-image-view-1.0.0-13a158f962b502bacb2fad99c6a96ca0de4e64ad.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/libs/ParseCrashReporting-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b2fc26f71157545cc214e36008dae494adeda93">
+        <dex dex="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/pre-dexed/release/ParseCrashReporting-1.9.3-768c2a39e7aaf79e4c1f9098434f584baf1acf90.jar" />
+    </item>
+    <item
+        jar="/home/kai/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/pre-dexed/release/bolts-android-1.2.0-92ec29d95765a6d17a7e7eae724d0db808debd46.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/libs/Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/pre-dexed/release/Parse-1.9.3-a82354a0f8c16b824249edca24f50dfa9c79eceb.jar" />
+    </item>
+    <item
+        jar="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/exploded-aar/com.romainpiel.shimmer/library/1.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
+        <dex dex="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/pre-dexed/release/classes-b4de8b79482209fb247034127874ca38062e3304.jar" />
+    </item>
+
+</items>

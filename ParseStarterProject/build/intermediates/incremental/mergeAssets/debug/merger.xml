@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="1.4.0"><source path="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/build/intermediates/exploded-aar/com.romainpiel.shimmer/library/1.4.0/assets"/></dataSet><dataSet config="main"><source path="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/src/debug/assets"/></dataSet></merger>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+<!--
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_orange_light"/>-->
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/txtuser"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:textSize="30dp"
+        app:reflectionColor="#0f0f"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="Students under you are : "
+        android:paddingBottom="20dp"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slist"
+        android:layout_weight="90"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    </ListView>
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+
+        app:reflectionColor="#0f0f"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="Logout" />
+
+
+
+</LinearLayout><!-- From: file:/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/res/layout/welcome.xml -->

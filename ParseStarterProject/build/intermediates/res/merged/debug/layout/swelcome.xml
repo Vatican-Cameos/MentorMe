@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI STUDENT"
+        android:textSize="10dp"/>-->
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/txtuser"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444"
+            android:textSize="30dp"
+            app:reflectionColor="@android:color/holo_blue_dark"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    <!--<TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtwelcome"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="20dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/mentorFound"/>
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/my_image"
+        android:paddingBottom="5dp"
+        android:src="@drawable/upload"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ename"
+
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="USN"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eusn"
+
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ebranch"
+
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/eaddress"
+
+        />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ephone"
+
+        />
+    <TextView
+        android:paddingTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aggergate"
+
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eaggregate"
+
+        />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your mentor:"
+
+            />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mentorSpinner"
+            />
+
+
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:id="@+id/bSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Submit"
+        android:layout_gravity="center"
+        app:reflectionColor="@android:color/holo_blue_dark"
+        android:gravity="center"/>
+
+    <com.romainpiel.shimmer.ShimmerButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:reflectionColor="@android:color/holo_blue_dark"
+        android:text="Logout"
+        android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout><!-- From: file:/home/kai/AndroidStudioProjects/Mentor/ParseStarterProject/res/layout/swelcome.xml -->
